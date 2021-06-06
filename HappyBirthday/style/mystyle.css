@@ -1,0 +1,97 @@
+body{
+  font-family: sans-serif;
+  margin: auto;
+  padding: 30px 80px 40px 80px;
+  width: auto;
+  text-align: center;
+  background-color: #fe7171;
+}
+h3{
+  text-align: auto;
+}
+.link{
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+a:hover{
+  color: #ffffff;
+}
+.button{
+  color: #ffffff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5%;
+  padding: 15px 30px;
+  text-align: center;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+
+}
+.button:hover{
+  background-color: red;
+
+}
+
+.f{
+  font-family: poppins;
+}
+.abhijeet{
+  font-family: 'Caveat', cursive;
+/* font-family: 'Cookie', cursive; */
+  font-size: 4rem;
+}
+#playmusic{
+  color: pink;
+  border-radius: 15%;
+
+}
+.last{
+  padding: 30px;
+}
+/* .meaning{
+  display: inline-block;
+} */
+.shyar{
+  font-size: 1.5rem;
+  padding-bottom: 15px;
+  font-weight: 800;
+}
+.shyri{
+  padding: 20px;
+  display: inline-block;
+}
+.gif5{
+  display: inline-block;
+}
+/* .imageq{
+  border-radius: 20%;
+} */
+
+.meaning{
+  padding: 20px;
+}
+.fullform{
+  font-size: 1.4rem;
+  padding: 0 20px 40px 0;
+}
+.gif{
+  border-radius: 100%;
+}
+.image{
+  padding: 30px;
+  border-radius: 10%;
+}
+.birth{
+  padding: 30px;
+}
+.fullform{
+  display: inline-block;
+}
+.phrase{
+  font-size: 2rem;
+  font-family: 'Cookie', cursive;
+  color: #5d54a4;
+  padding: 20px;
+  /* font-family: 'Raleway' sans-serif; */
+}
