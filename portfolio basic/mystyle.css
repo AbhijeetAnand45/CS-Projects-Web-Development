@@ -1,0 +1,61 @@
+body{
+  background: #cdcdcd;
+
+}
+.container{
+  width: 60%;
+  margin: 0 auto;
+
+}
+
+.navigation{
+  text-align: right;
+}
+.b{
+  display: inline-block;
+
+}
+.c,.d,.e{
+  margin: 4px 10px;
+}
+#about{
+  display: inline-block;
+  text-align: auto;
+
+  font-family: cursive;
+}
+#contact{
+  margin-bottom: 30px;
+}
+.media{
+  display: inline-block;
+
+}
+.email{
+  margin: 5px 10px;
+
+}
+.Address{
+  text-align: center;
+}
+.call{
+  margin: 5px;
+}
+.direct{
+  text-align: center;
+  display: inline-block;
+}
+.connect{
+  text-align: center;
+  margin: 0px auto;;
+}
+.fb,.in,.insta,.twitter{
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+.footer{
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+}
