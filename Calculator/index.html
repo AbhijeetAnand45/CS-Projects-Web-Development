@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="stle.css">
+</head>
+<body>
+   
+    
+    <div class="container">
+        <h1>Scientific Calculator</h1>
+        
+        <div class="calculator">
+        <form name="calForm">
+            <input id="inone" name="res" type="text" value="" placeholder="Result">
+            <input id="intwo" name="inputs" type="text" value="0">
+        </form>
+        <div id="ButtonCon">
+            <button class="btn" id="clr" onclick="clr(); playsound();">C</button>
+            <button class="btn" id="back" onclick="erase(); playsound();">x</button>
+            <button class="btn" id="per" onclick="percent(); playsound();">%</button>
+            <button class="btn" id="devide" onclick="divide(); playsound();">/</button>
+            <button class="btn" id="num1" onclick="numone(); playsound();">1</button>
+            <button class="btn" id="num2" onclick="numtwo(); playsound();">2</button>
+            <button class="btn" id="num3" onclick="numthree(); playsound();">3</button>
+            <button class="btn" id="add" onclick="addition(); playsound();">+</button>
+            <button class="btn" id="num4" onclick="numfour(); playsound();">4</button>
+            <button class="btn" id="num5" onclick="numfive(); playsound();">5</button>
+            <button class="btn" id="num6" onclick="numsix(); playsound();">6</button>
+            <button class="btn" id="sub" onclick="subtract(); playsound();">-</button>
+            <button class="btn" id="num7" onclick="numseven(); playsound();">7</button>
+            <button class="btn" id="num8" onclick="numeight(); playsound();">8</button>
+            <button class="btn" id="num9" onclick="numnine(); playsound();">9</button>
+            <button class="btn" id="mul" onclick="multiply(); playsound();">*</button>
+
+            <button id="Zero" onclick="numzero(); playsound();">0</button>
+            <button id="doublezero" onclick="numdoublezero(); playsound();">00</button>
+            <button id="equal" onclick="equalsto(); playsound();">=</button>
+            <button id="sqrt" onclick="squareroot(); playsound();">sqrt</button>
+        </div>
+
+    </div>
+</div>
+<script src="script.js"></script>
+    
+</body>
+</html>

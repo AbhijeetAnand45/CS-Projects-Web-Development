@@ -1,0 +1,75 @@
+body{
+    background-color: white;
+    margin: 0px auto;
+
+}
+/* .darkmode{
+    background-color: black;
+    color: white;
+} */
+.container{
+    background-color: #d1d9d9;
+    height: 600px;
+    width: 1100px;
+    margin: auto;
+
+}
+.calculator{
+    background-color: #eaedef;
+    height: 520px;
+    width: 320px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0;
+}
+#ButtonCon{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+h1{
+    text-align: center;    
+     font-size: 40px;    
+     color: #003652; 
+}
+#inone{
+    color: grey;
+    text-align: right;
+    width: 312px; 
+    height: 50px;
+    font-size: 25px;
+    margin-top: 15px;
+
+}
+#intwo{
+    text-align: right;
+    width: 312px; 
+    height: 60px;
+    font-size: 22px;
+
+}
+button{
+    cursor: pointer;
+    background-color: #fff;
+    width: 74px;
+    height: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    border: 1px solid #097C9B;
+    border-radius: 10%;
+}
+
+#clr,#per,#back,#devide{
+    margin-top: 15px;
+}
+button:hover{
+    background-color: #509CA9;
+}
+
+
+@media only screen and (max-width: 1118px){
+    .container{
+        width: auto;
+        height: auto;
+    }
+}
