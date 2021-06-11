@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="mystyle.css">
+
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <div id="maincontent">
+      <div id="leftcontent" class="content">
+        <div id="logosection">
+          <img id="logo" src="images\logo.svg" alt="Fylo logo">
+
+        </div>
+        <div id="actions">
+          <button class="actionbutton"><img src="images\icon-document.svg" class="actionimage" alt="Document" </button>
+            <button class="actionbutton"><img src="images\icon-folder.svg" class="actionimage" alt="Folder" </button>
+              <button class="actionbutton"><img src="images\icon-upload.svg" class="actionimage" alt="Upload" </button>
+        </div>
+
+      </div>
+      <div id="rightcontent" class="content">
+        <p id="usage">You’ve used <span id="currentusage">815 GB</span> of your storage </p>
+        <div id="usagebar">
+          <div id="usagefill"></div>
+          <div id="usageball"></div>
+
+        </div>
+        <p id="usageminlimit" class="usagelimit">0 GB</p>
+        <p id="usagemaxlimit" class="usagelimit">1000 GB</p>
+        <div id="usageleft">
+          <p id="usageremaining">185</p>
+          <p>GB LEFT</p>
+
+        </div>
+
+      </div>
+
+    </div>
+    <div id="background">
+
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Abhijeet Anand</a>.
+    </div>
+
+  </div>
+
+</body>
+
+</html>
